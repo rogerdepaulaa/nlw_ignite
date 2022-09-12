@@ -6,7 +6,7 @@ export default function App() {
   function Button(props: ButtonProps){
     return (
       <TouchableOpacity>
-        <text>{props.title}</text>
+        <Text>{props.title}</Text>
       </TouchableOpacity>
     );
   }
@@ -14,7 +14,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Hello, world!</Text>
-    
+      <Button title='Send 1'/>
 
       
       <StatusBar style="auto" />
